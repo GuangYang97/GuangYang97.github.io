@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Raymond的小站
-subtitle: '试运行'
-description: ''
+title: Stahl的实验小站
+subtitle: '111'
+description: '222'
 keywords:
 author: Guang Yang
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.raymondyang97.net/
+url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -96,18 +96,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: https://github.com/GuangYang97/GuangYang97.github.io # https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: gh-pages
-  message: [message]
-  token: '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'
-  name: [git user]
-  email: [git email]
-  extend_dirs: [extend directory]
-  ignore_hidden: false # default is true
-  ignore_pattern: regexp  # whatever file that matches the regexp will be ignored when deploying
+  type: ''
